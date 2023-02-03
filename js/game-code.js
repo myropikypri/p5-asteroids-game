@@ -365,7 +365,7 @@
 			asteroidImage = loadImage("game-assets/kouvas.png"); // load once and the pass to Asteroid so that will not load each time an Asteroid is created
 			spaceship = new SpaceShip();
 			
-			missileImage = loadImage("game-assets/missile-2.png");
+			missileImage = loadImage("game-assets/nixia.png");
 			missilePack = new MissilePack();
 		}
 		
