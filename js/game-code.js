@@ -361,7 +361,7 @@
 		*/
 		function preload() 
 		{
-			background = loadImage("game-assets/moon-bg.jpg");		// load the background-image
+			background = loadImage("game-assets/poli2.jpg");		// load the background-image
 			asteroidImage = loadImage("game-assets/asteroid-2.png"); // load once and the pass to Asteroid so that will not load each time an Asteroid is created
 			spaceship = new SpaceShip();
 			
