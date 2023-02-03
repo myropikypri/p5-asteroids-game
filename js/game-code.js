@@ -17,7 +17,7 @@
 				
 				this.image = asteroidImage;
 				this.explosionSound = createAudio("game-assets/explosion-05.wav");
-				this.explosionImage = loadImage("game-assets/explosion-2.png");
+				this.explosionImage = loadImage("game-assets/nero.png");
 				this.load();
 			}
 			
