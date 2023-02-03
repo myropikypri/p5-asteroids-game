@@ -248,7 +248,7 @@
 			
 			constructor()
 			{
-				this.image = loadImage("game-assets/spaceship-2.png");
+				this.image = loadImage("game-assets/gata.png");
 				this.engineSound = createAudio("game-assets/engine.wav");
 			}
 			
