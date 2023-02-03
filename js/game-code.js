@@ -310,7 +310,7 @@
 				
 				for (let i = 0; i < this.livesLeft; i++)
 				{
-					let live = loadImage("game-assets/spaceship-miniature.png");
+					let live = loadImage("game-assets/zoi.png");
 					this.lives[i] = live;
 				}
 			}
