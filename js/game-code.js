@@ -306,7 +306,7 @@
 			constructor()
 			{
 				this.lives = [];
-				this.livesLeft = 3; // initial number of lives
+				this.livesLeft = 9; // initial number of lives
 				
 				for (let i = 0; i < this.livesLeft; i++)
 				{
@@ -335,7 +335,7 @@
 			
 			reset()
 			{
-				this.livesLeft = 3;
+				this.livesLeft = 9;
 			}
 		}
 		
