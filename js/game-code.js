@@ -518,14 +518,14 @@
 			{
 				text('Press N to start a new game.', 300, 300, 800, 200);
 				textSize(25);
-				text('Use the left and right arrows to avoid the kouvades-nero.', 340, 360, 800, 200);
+				text('Use the left & right arrows to avoid the kouvades nero', 340, 360, 800, 200);
 				text('Get the nixia and attack by pressing the Space bar!', 340, 390, 800, 200);
 			}
 			
 			if (gameOver)
 			{
 				textSize(50);
-				text('Game over!', 500, 280);
+				text('EXASES LOL!', 500, 280);
 			}
 			
 			if (paused)
