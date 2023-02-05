@@ -505,7 +505,7 @@
 			textSize(30);
 			text("Score: " + asteroidSwarm.asteroidsPassed, 30, 135); // Score is shown
 			
-			text("Missiles: " + spaceship.missiles, 1120, 60); // Score is shown
+			text("Nixia x3: " + spaceship.missiles, 1120, 60); // Score is shown
 		
 			if (!startGame)
 				rect(280, 280, 680, 140); // rectangle (window) to show the message to start game
@@ -518,8 +518,8 @@
 			{
 				text('Press N to start a new game.', 300, 300, 800, 200);
 				textSize(25);
-				text('Use the left and right arrows to avoid the asteroids.', 340, 360, 800, 200);
-				text('Get the missiles and fire by pressing the Space bar!', 340, 390, 800, 200);
+				text('Use the left and right arrows to avoid the kouvades-nero.', 340, 360, 800, 200);
+				text('Get the nixia and attack by pressing the Space bar!', 340, 390, 800, 200);
 			}
 			
 			if (gameOver)
