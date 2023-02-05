@@ -83,7 +83,7 @@
 			{
 				this.x = 0;
 				this.y = 0;
-				this.image = loadImage("game-assets/missile-pack-2.png");
+				this.image = loadImage("game-assets/nixia2.png");
 			}
 			
 			newMissilePack(score)
@@ -248,7 +248,7 @@
 			
 			constructor()
 			{
-				this.image = loadImage("game-assets/spaceship-2.png");
+				this.image = loadImage("game-assets/gata.png");
 			}
 			
 			display()
@@ -304,11 +304,11 @@
 			constructor()
 			{
 				this.lives = [];
-				this.livesLeft = 3; // initial number of lives
+				this.livesLeft = 9; // initial number of lives
 				
 				for (let i = 0; i < this.livesLeft; i++)
 				{
-					let live = loadImage("game-assets/spaceship-miniature.png");
+					let live = loadImage("game-assets/zoi.png");
 					this.lives[i] = live;
 				}
 			}
@@ -333,7 +333,7 @@
 			
 			reset()
 			{
-				this.livesLeft = 3;
+				this.livesLeft = 9;
 			}
 		}
 		
