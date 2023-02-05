@@ -504,8 +504,8 @@
 			{
 				text('Press N to start a new game.', 300, 300, 800, 200);
 				textSize(25);
-				text('Use the left and right arrows to avoid the asteroids.', 340, 360, 800, 200);
-				text('Get the missiles and fire by pressing the Space bar!', 340, 390, 800, 200);
+				text('Use the left and right arrows to avoid the kouvades nero.', 340, 360, 800, 200);
+				text('Get the nixia and attack kouvades by pressing the Space bar!', 340, 390, 800, 200);
 			}
 			
 			if (gameOver)
