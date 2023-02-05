@@ -472,7 +472,8 @@
 				let temp = spaceship.fireMissile();
 				if (temp != undefined)
 					missiles.push(temp);
-			}
+			}			
+			{ Pd.send('splash',[];}
 			
 			if (keyCode == 78) // n is pressed - New game
 			{
