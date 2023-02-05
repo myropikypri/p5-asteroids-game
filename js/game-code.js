@@ -16,7 +16,7 @@
 				this.maxSpeed = 12;
 				
 				this.image = asteroidImage;
-				this.explosionImage = loadImage("game-assets/explosion-2.png");
+				this.explosionImage = loadImage("game-assets/nero.png");
 				this.load();
 			}
 			
@@ -70,7 +70,7 @@
 			
 			explosionSoundPD()
 			{
-				Pd.send('collision', []);
+				Pd.send('splash', []);
 			}
 		}
 		
